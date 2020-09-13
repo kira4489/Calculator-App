@@ -90,6 +90,7 @@ export class calc extends Component {
       render() {
         return (
             <div className="calc-wrapper">
+              <h1>Calculator App!</h1>
               <div className="row">
                 <Input>{this.state.input}</Input>
               </div>
